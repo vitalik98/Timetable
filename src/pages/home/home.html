@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item icon-left *ngFor="let teacher of teachers" (click)="showTimetable(teacher.days)">
+      {{teacher.name}}
+    </button>
+  </ion-list>
+</ion-content>

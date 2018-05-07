@@ -1,0 +1,38 @@
+<!--
+  Generated template for the TimetablePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>timetable</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <div id="wrapper">
+    <ion-slides #slider>
+      <ion-slide *ngFor="let day of days">
+        <h1>{{day.dayN}}</h1>
+        <ion-list>
+          <ion-card *ngFor="let subject of day.subjects">
+            <ion-row>
+              <ion-col col-3>
+                <p style="font-size: 130%; padding: 12.5%;">{{subject.time}}</p>
+              </ion-col>
+              <ion-col col-9>
+                <div style="margin: 0 !important; padding: 5%;">
+                  <h1>{{subject.subject}}</h1>
+                  <h2>Курс:{{subject.course}} Группа:{{subject.group}}</h2>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+        </ion-list>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>
