@@ -1,135 +1,216 @@
 {
   "teachers": [
     {
-      "name": "Иванов",
+      "name": "Вельченко А. С.",
       "days": [
         {
           "dayN": "Понедельник",
           "subjects": [
-            {
-              "time": "8.15-9.35",
-              "subject": "Предмет1",
-              "course": "1",
-              "group": "5"
-            },
-            {
-              "time": "9.45-11.05",
-              "subject": "Предмет2",
-              "course": "3",
-              "group": "9"
-            }
           ]
         },
         {
           "dayN": "Вторник",
           "subjects": [
             {
-              "time": "8.15-9.35",
-              "subject": "Предмет10",
-              "course": "1",
-              "group": "5"
-            },
-            {
-              "time": "9.45-11.05",
-              "subject": "Предмет1",
-              "course": "1",
-              "group": "3"
+              "time": "13.00-14.20",
+              "subject": "Методы прогр. и информ.",
+              "course": "2",
+              "group": "9б",
+              "classroom": "404"
             }
           ]
         },
         {
           "dayN": "Среда",
           "subjects": [
+          ]
+        },
+        {
+          "dayN": "Четверг",
+          "subjects": [
             {
               "time": "8.15-9.35",
-              "subject": "Предмет1",
-              "course": "1",
-              "group": "3"
+              "subject": "Выч. практ.",
+              "course": "2",
+              "group": "9б",
+              "classroom": "405"
             },
             {
               "time": "9.45-11.05",
-              "subject": "Предмет2",
+              "subject": "Выч. практ.",
+              "course": "2",
+              "group": "9a",
+              "classroom": "427",
+              "parity":true
+            },
+            {
+              "time": "9.45-11.05",
+              "subject": "Выч. практ.",
+              "course": "2",
+              "group": "2б",
+              "classroom": "427",
+              "parity":false
+            },
+            {
+              "time": "11.15",
+              "subject": "Алгоритмы и структ. данных",
               "course": "3",
-              "group": "9"
+              "group": "10",
+              "classroom": "403"
+            }
+          ]
+        },
+        {
+          "dayN": "Пятница",
+          "subjects": [
+            {
+              "time": "8.15-9.35",
+              "subject": "Методы прогр. и информ.",
+              "course": "2",
+              "group": "1а",
+              "classroom": "403"
+            },
+            {
+              "time": "9.45-11.05",
+              "subject": "Выч. практика",
+              "course": "2",
+              "group": "1а",
+              "classroom": "403"
+            }
+          ]
+        },
+        {
+          "dayN": "Суббота",
+          "subjects": [
+            {
+              "time": "9.45-11.05",
+              "subject": "Методы прогр. и информ.",
+              "course": "2",
+              "group": "9а",
+              "classroom": "120"
+            },
+            {
+              "time": "11.15-12.35",
+              "subject": "Методы прогр. и информ.",
+              "course": "2",
+              "group": "2б",
+              "classroom": "120"
             }
           ]
         }
       ]
     },
     {
-      "name": "Иванова",
+      "name": "Дерюшев А. А.",
       "days": [
         {
           "dayN": "Понедельник",
           "subjects": [
-            {
-              "time": "8.15-9.35",
-              "subject": "Предмет1",
-              "course": "1",
-              "group": "5"
-            },
-            {
-              "time": "9.45-11.05",
-              "subject": "Предмет2",
-              "course": "3",
-              "group": "9"
-            }
           ]
         },
         {
           "dayN": "Вторник",
           "subjects": [
-            {
-              "time": "8.15-9.35",
-              "subject": "Предмет2",
-              "course": "1",
-              "group": "5"
-            },
-            {
-              "time": "9.45-11.05",
-              "subject": "Предмет1",
-              "course": "1",
-              "group": "3"
-            }
           ]
         },
         {
           "dayN": "Среда",
           "subjects": [
+          ]
+        },
+        {
+          "dayN": "Четверг",
+          "subjects": [
             {
               "time": "8.15-9.35",
-              "subject": "Предмет1",
-              "course": "1",
-              "group": "3"
+              "subject": "Кросс-платформ. прилож. для моб. устройств",
+              "course": "2",
+              "group": "9/9a",
+              "classroom": "403"
             },
             {
               "time": "9.45-11.05",
-              "subject": "Предмет2",
-              "course": "3",
-              "group": "9"
+              "subject": "Информацион. технологии",
+              "course": "1/2",
+              "group": "2,9/9б",
+              "classroom": "606/429"
             }
+          ]
+        },
+        {
+          "dayN": "Пятница",
+          "subjects": [
+          ]
+        },
+        {
+          "dayN": "Суббота",
+          "subjects": [
           ]
         }
       ]
     },
     {
-      "name": "Петров",
+      "name": "Блинов И. Н.",
       "days": [
         {
           "dayN": "Понедельник",
           "subjects": [
             {
-              "time": "8.15-9.35",
-              "subject": "Предмет1",
-              "course": "1",
-              "group": "5"
+              "time": "13.00-14.20",
+              "subject": "Методы програм. и инф.",
+              "course": "2",
+              "group": "1,2,6,9",
+              "classroom": "433"
+            }
+          ]
+        },
+        {
+          "dayN": "Вторник",
+          "subjects": [
+          ]
+        },
+        {
+          "dayN": "Среда",
+          "subjects": [
+          ]
+        },
+        {
+          "dayN": "Четверг",
+          "subjects": [
+            {
+              "time": "13.00-14.20",
+              "subject": "Информационные технологии",
+              "course": "2",
+              "group": "2",
+              "classroom": "419"
             },
             {
-              "time": "9.45-11.05",
-              "subject": "Предмет2",
-              "course": "3",
-              "group": "9"
+              "time": "14.30-15.50",
+              "subject": "Информационные технологии",
+              "course": "2",
+              "group": "2",
+              "classroom": "120"
             }
+          ]
+        },
+        {
+          "dayN": "Пятница",
+          "subjects": [
+          ]
+        },
+        {
+          "dayN": "Суббота",
+          "subjects": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Перез-Чернов А. Х.",
+      "days": [
+        {
+          "dayN": "Понедельник",
+          "subjects": [
           ]
         },
         {
@@ -137,33 +218,59 @@
           "subjects": [
             {
               "time": "8.15-9.35",
-              "subject": "Предмет10",
+              "subject": "Информационные технологии",
               "course": "1",
-              "group": "5"
+              "group": "2",
+              "classroom": "409"
             },
             {
               "time": "9.45-11.05",
-              "subject": "Предмет1",
+              "subject": "Информационные технологии",
               "course": "1",
-              "group": "3"
+              "group": "9",
+              "classroom": "409"
             }
           ]
         },
         {
           "dayN": "Среда",
           "subjects": [
+          ]
+        },
+        {
+          "dayN": "Четверг",
+          "subjects": [
+          ]
+        },
+        {
+          "dayN": "Пятница",
+          "subjects": [
             {
-              "time": "8.15-9.35",
-              "subject": "Предмет1",
-              "course": "1",
-              "group": "3"
+              "time": "13.00-14.20",
+              "subject": "Прикл. сист. анализ",
+              "course": "3",
+              "group": "5",
+              "classroom": "428"
             },
             {
-              "time": "9.45-11.05",
-              "subject": "Предмет2",
+              "time": "14.30-15.50",
+              "subject": "Прикл. сист. анализ",
               "course": "3",
-              "group": "9"
+              "group": "5б",
+              "classroom": "405"
+            },
+            {
+              "time": "16.00-17.20",
+              "subject": "Прикл. сист. анализ",
+              "course": "3",
+              "group": "5а",
+              "classroom": "405"
             }
+          ]
+        },
+        {
+          "dayN": "Суббота",
+          "subjects": [
           ]
         }
       ]
@@ -180,16 +287,28 @@
               "dayN": "Понедельник",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "120"
+                  "time": "8.15-9.35",
+                  "subject": "Методы програм. и инф.",
+                  "teacherName": "Галкин И. М.",
+                  "classroom": "433"
                 },
                 {
                   "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "412"
+                  "subject": "Физическая культура",
+                  "teacherName": "",
+                  "classroom": ""
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Математический анализ",
+                  "teacherName": "Пекарский А. А.",
+                  "classroom": "351"
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Дискретная математика",
+                  "teacherName": "Таразевич Ю. Г.",
+                  "classroom": "351"
                 }
               ]
             },
@@ -197,16 +316,28 @@
               "dayN": "Вторник",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "531"
+                  "time": "8.15-9.35",
+                  "subject": "Дискретная математика/Английский язык",
+                  "teacherName": "Таразевич Ю. Г./Тригубкина С. Н.",
+                  "classroom": "351/232"
                 },
                 {
                   "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "152"
+                  "subject": "Английский язык/Дискретная математика",
+                  "teacherName": "Шарко И. Н./Таразевич Ю. Г.",
+                  "classroom": "342/351"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Математический анализ",
+                  "teacherName": "Вопнярская А. Г.",
+                  "classroom": "351"
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Немецкий язык",
+                  "teacherName": "Зубовская Н. К.",
+                  "classroom": "355"
                 }
               ]
             },
@@ -214,16 +345,103 @@
               "dayN": "Среда",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "606"
+                  "time": "8.15-9.35",
+                  "subject": "Аналитическая геометрия",
+                  "teacherName": "Кононов С. Г.",
+                  "classroom": "609"
                 },
                 {
                   "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
+                  "subject": "Аналитическая геометрия",
+                  "teacherName": "Кононов С. Г.",
                   "classroom": "430"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Математический анализ",
+                  "teacherName": "Пекарский А. А.",
+                  "classroom": "322"
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Математический анализ",
+                  "teacherName": "Вопнярская А. Г.",
+                  "classroom": "322"
+                },
+                {
+                  "time": "14.30-15.50",
+                  "subject": "Немецкий язык",
+                  "teacherName": "Зубовская Н. К.",
+                  "classroom": "342"
+                }
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+                {
+                  "time": "8.15-9.35",
+                  "subject": "Методы програм. и инф.",
+                  "teacherName": "Кравчук А. И./Душкевич О. Г.",
+                  "classroom": "409/404"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Выч. практика",
+                  "teacherName": "Кравчук А. И./Душкевич О. Г.",
+                  "classroom": "409/404"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Компьютерная математика",
+                  "teacherName": "Щеглова Н. Л.",
+                  "classroom": "606"
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Компьютерная математика",
+                  "teacherName": "Щеглова Н. Л./Вашкевич В. И.",
+                  "classroom": "404/405"
+                }
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+                {
+                  "time": "8.15-9.35",
+                  "subject": "Физическая культура",
+                  "teacherName": "",
+                  "classroom": ""
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Алгебра и теория чисел",
+                  "teacherName": "Каскевич В. И.",
+                  "classroom": "355"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Алгебра и теория чисел",
+                  "teacherName": "Тихонов С. В.",
+                  "classroom": "355"
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Английский язык",
+                  "teacherName": "Шарко И. Н./Тригубкина С. Н.",
+                  "classroom": "342/232"
+                }
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Белорусский язык",
+                  "teacherName": "Муравицкая Е. М.",
+                  "classroom": "606"
                 }
               ]
             }
@@ -235,52 +453,276 @@
             {
               "dayN": "Понедельник",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "120"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "412"
-                }
               ]
             },
             {
               "dayN": "Вторник",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "531"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "152"
-                }
               ]
             },
             {
               "dayN": "Среда",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "606"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "430"
-                }
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "3",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "4",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "5",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "6",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "7",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "8",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "9",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
               ]
             }
           ]
@@ -296,52 +738,16 @@
             {
               "dayN": "Понедельник",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "120"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "412"
-                }
               ]
             },
             {
               "dayN": "Вторник",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "531"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "152"
-                }
               ]
             },
             {
               "dayN": "Среда",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "606"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "430"
-                }
               ]
             }
           ]
@@ -352,17 +758,274 @@
             {
               "dayN": "Понедельник",
               "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "3",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "4",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "5",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "6",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "7",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "8",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "9",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "120"
+                  "time": "8.15-9.35",
+                  "subject": "Базы данных",
+                  "teacherName": "Румянцев",
+                  "classroom": "405"
                 },
                 {
                   "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "412"
+                  "subject": "Web-программирование",
+                  "teacherName": "Романчик В. С.",
+                  "classroom": "429"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Физическая культура",
+                  "teacherName": "",
+                  "classroom": ""
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Методы програм. и инф.",
+                  "teacherName": "Блинов И. Н",
+                  "classroom": "433"
                 }
               ]
             },
@@ -370,33 +1033,115 @@
               "dayN": "Вторник",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "531"
+                  "time": "8.15-9.35",
+                  "subject": "Английский язык",
+                  "teacherName": "Воробьева Т. А./Куцелай О. Б.",
+                  "classroom": "352/352а"
                 },
                 {
                   "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "152"
+                  "subject": "Физическая культура",
+                  "teacherName": "",
+                  "classroom": ""
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Интернет-маркетинг",
+                  "teacherName": "Кремень Е. В.",
+                  "classroom": "404"
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Методы програм. и инф.",
+                  "teacherName": "Вельченко А. С.",
+                  "classroom": "404"
                 }
               ]
             },
             {
               "dayN": "Среда",
               "subjects": [
+
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "606"
+                  "time": "8.15-9.35",
+                  "subject": "Кросс-платформ. прилож. для моб. устройств/Выч. практ.",
+                  "teacherName": "Дерюшев А. А./Вельченко С. А.",
+                  "classroom": "403/405"
                 },
                 {
                   "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "430"
+                  "subject": "Английский язык/Кросс-платформ. прилож. для моб. устройств",
+                  "teacherName": "Воробьева Т.А./Дерюшев А. А.",
+                  "classroom": "342/429"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Дифф. уравнения/Численные методы ",
+                  "teacherName": "Руденок А. Е./Игнатенко М. В.",
+                  "classroom": "419"
+                }
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+                {
+                  "time": "8.15-9.35",
+                  "subject": "Дискрет. матем. и мат. логика",
+                  "teacherName": "Кузьмин К. Г.",
+                  "classroom": "405"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Дискрет. матем. и мат. логика",
+                  "teacherName": "Кузьмин К. Г.",
+                  "classroom": "405"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Дифф. уравнения",
+                  "teacherName": "Садовский А. П.",
+                  "classroom": "352"
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Численные методы",
+                  "teacherName": "Игнатенко М. В.",
+                  "classroom": "429"
+                }
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+                {
+                  "time": "8.15-9.35",
+                  "subject": "Англ. яз.",
+                  "teacherName": "Воробьева Т. А.",
+                  "classroom": "352"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Методы прогр. и информ./Англ. яз.",
+                  "teacherName": "Вельченко А. С./Куцелай О.Б.",
+                  "classroom": "120/352а"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Выч. геом. и компьют. графика",
+                  "teacherName": "Вылегжанин Д. В.",
+                  "classroom": "429"
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Выч. геом. и компьют. графика",
+                  "teacherName": "Вылегжанин Д. В.",
+                  "classroom": "606"
                 }
               ]
             }
@@ -414,16 +1159,22 @@
               "dayN": "Понедельник",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "120"
+                  "time": "14.30-15.50",
+                  "subject": "Численные методы/Функциональный анализ",
+                  "teacherName": "Якименко Т. С./Чесалин В. И.",
+                  "classroom": "403/350"
                 },
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "412"
+                  "time": "16.00-17.20",
+                  "subject": "Функциональный анализ/Численные методы",
+                  "teacherName": "Штин С. Л./Якименко Т. С.",
+                  "classroom": "430/403"
+                },
+                {
+                  "time": "17.30-18.50",
+                  "subject": "Исследование операций",
+                  "teacherName": "Пиндрик О. И.",
+                  "classroom": "329"
                 }
               ]
             },
@@ -431,16 +1182,22 @@
               "dayN": "Вторник",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "531"
+                  "time": "11.15-12.35",
+                  "subject": "Физическая культура",
+                  "teacherName": "",
+                  "classroom": ""
                 },
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "152"
+                  "time": "13.00-14.20",
+                  "subject": "Уравнения мат. физики",
+                  "teacherName": "Ломовцев Ф. Е.",
+                  "classroom": "329"
+                },
+                {
+                  "time": "16.00-17.20",
+                  "subject": "Современные IT-специальности/Экстрем. задачи и вар. исч.",
+                  "teacherName": "Гороховик В. В./Бузулуцкая А. Н.",
+                  "classroom": "433/329"
                 }
               ]
             },
@@ -448,16 +1205,91 @@
               "dayN": "Среда",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "606"
+                  "time": "11.15-12.35",
+                  "subject": "Кураторский час",
+                  "teacherName": "",
+                  "classroom": ""
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Численные методы/ТВ и МС",
+                  "teacherName": "Азаров А. И./Спасков С.",
+                  "classroom": "433/355"
+                },
+                {
+                  "time": "14.30-15.50",
+                  "subject": "ТВ и МС/Математическая логика",
+                  "teacherName": "Спасков С./Таразечич Ю. Г.",
+                  "classroom": "355"
+                },
+                {
+                  "time": "16.00-17.20",
+                  "subject": "Математическая логика",
+                  "teacherName": "Таразечич Ю. Г.",
+                  "classroom": "355"
+                },
+                {
+                  "time": "17.30-18.50",
+                  "subject": "ТВ и МС",
+                  "teacherName": "Яблонский О. Л.",
+                  "classroom": "430"
+                }
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Физическая культура",
+                  "teacherName": "",
+                  "classroom": ""
+                },
+                {
+                  "time": "13.00-14.20",
+                  "subject": "Теоретич. механика",
+                  "teacherName": "Савчук В. П.",
+                  "classroom": "322"
+                },
+                {
+                  "time": "16.00-17.20",
+                  "subject": "Функцион. анализ",
+                  "teacherName": "Антоневич А. Б.",
+                  "classroom": "430"
+                },
+                {
+                  "time": "17.30-18.50",
+                  "subject": "Этническая и конфессиональная история/Основы права",
+                  "teacherName": "Карпович Н. В./ Хлус А. М.",
+                  "classroom": "606/609"
+                }
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+                {
+                  "time": "8.15-9.35",
+                  "subject": "Основы права",
+                  "teacherName": "Хлус А. М.",
+                  "classroom": "609"
                 },
                 {
                   "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "430"
+                  "subject": "Доп. главы теории функций",
+                  "teacherName": "Радыно А. Я.",
+                  "classroom": "329"
+                },
+                {
+                  "time": "11.15-12.35",
+                  "subject": "Исследование операций",
+                  "teacherName": "Лебедев А. В.",
+                  "classroom": "433"
                 }
               ]
             }
@@ -469,52 +1301,311 @@
             {
               "dayN": "Понедельник",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "120"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "412"
-                }
               ]
             },
             {
               "dayN": "Вторник",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "531"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "152"
-                }
               ]
             },
             {
               "dayN": "Среда",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "606"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "430"
-                }
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "3",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "4",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "5",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "6",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "7",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "8",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "9",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "10",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
               ]
             }
           ]
@@ -531,16 +1622,28 @@
               "dayN": "Понедельник",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "120"
+                  "time": "16.00-17.20",
+                  "subject": "Доп. главы ТВ",
+                  "teacherName": "Бахтин В. И.",
+                  "classroom": "348"
                 },
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "412"
+                  "time": "17.30-18.50",
+                  "subject": "Доп. главы ТВ",
+                  "teacherName": "Бахтин В. И.",
+                  "classroom": "348"
+                },
+                {
+                  "time": "19.00-20.20",
+                  "subject": "Доп. главы ТВ",
+                  "teacherName": "Сташуленок С. П.",
+                  "classroom": "430"
+                },
+                {
+                  "time": "20.30-21.50",
+                  "subject": "Доп. главы ТВ",
+                  "teacherName": "Сташуленок С. П.",
+                  "classroom": "430"
                 }
               ]
             },
@@ -548,16 +1651,22 @@
               "dayN": "Вторник",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "531"
+                  "time": "16.00-17.20",
+                  "subject": "Базы данных",
+                  "teacherName": "Шибут А. С.",
+                  "classroom": "409"
                 },
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "152"
+                  "time": "17.30-18.50",
+                  "subject": "Базы данных",
+                  "teacherName": "Шибут А. С.",
+                  "classroom": "409"
+                },
+                {
+                  "time": "19.00-20.20",
+                  "subject": "Базы данных",
+                  "teacherName": "Шибут А. С.",
+                  "classroom": "409"
                 }
               ]
             },
@@ -565,73 +1674,109 @@
               "dayN": "Среда",
               "subjects": [
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "606"
+                  "time": "16.00-17.20",
+                  "subject": "Разработка web-приложений",
+                  "teacherName": "Кравчук А. И.",
+                  "classroom": "427"
                 },
                 {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "430"
+                  "time": "17.30-18.50",
+                  "subject": "Разработка web-приложений",
+                  "teacherName": "Кравчук А. И.",
+                  "classroom": "427"
+                },
+                {
+                  "time": "19.00-20.20",
+                  "subject": "Разработка web-приложений",
+                  "teacherName": "Кравчук А. И.",
+                  "classroom": "427"
                 }
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+                {
+                  "time": "16.00-17.20",
+                  "subject": "Доп. главы ур. мат. физики",
+                  "teacherName": "Корзюк В. И.",
+                  "classroom": "346"
+                },
+                {
+                  "time": "17.30-18.50",
+                  "subject": "Доп. главы ур. мат. физики",
+                  "teacherName": "Корзюк В. И.",
+                  "classroom": "346"
+                },
+                {
+                  "time": "19.00-20.20",
+                  "subject": "Доп. главы ур. мат. физики",
+                  "teacherName": "Корзюк В. И.",
+                  "classroom": "346"
+                }
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+                {
+                  "time": "16.00-17.20",
+                  "subject": "ДС",
+                  "teacherName": "Васильев И. Л./Кононов С. Г.",
+                  "classroom": "355/324"
+                },
+                {
+                  "time": "17.30-18.50",
+                  "subject": "ДС",
+                  "teacherName": "Васильев И. Л./Кононов С. Г.",
+                  "classroom": "355/324"
+                },
+                {
+                  "time": "19.00-20.20",
+                  "subject": "ДС",
+                  "teacherName": "Васильев И. Л./Кононов С. Г.",
+                  "classroom": "355/324"
+                }
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
               ]
             }
           ]
         },
         {
-          "groupNumber": "2",
+          "groupNumber": "6",
           "days": [
             {
               "dayN": "Понедельник",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "120"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "412"
-                }
               ]
             },
             {
               "dayN": "Вторник",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "531"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "152"
-                }
               ]
             },
             {
               "dayN": "Среда",
               "subjects": [
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "606"
-                },
-                {
-                  "time": "9.45-11.05",
-                  "subject": "Предмет2",
-                  "teacherName": "Петров",
-                  "classroom": "430"
-                }
+              ]
+            },
+            {
+              "dayN": "Четверг",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Пятница",
+              "subjects": [
+              ]
+            },
+            {
+              "dayN": "Суббота",
+              "subjects": [
               ]
             }
           ]

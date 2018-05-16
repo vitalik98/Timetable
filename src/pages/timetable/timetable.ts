@@ -10,11 +10,25 @@ import { Slides } from "ionic-angular";
 })
 export class TimetablePage {
   @ViewChild('slider') slider: Slides;
+  weekParity = true;
+  weekEven = 'чёт.';
+  weekOdd = 'нечёт.';
+  weekState = 'чёт.';
   days;
   subjects;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.days = this.navParams.data.days;
     this.subjects = this.navParams.data.days.subjects;
+  }
+
+  switchWeek(){
+    this.weekParity = !this.weekParity;
+    if(this.weekParity){
+      this.weekState = this.weekEven;
+    }
+    else {
+      this.weekState = this.weekOdd;
+    }
   }
 
   ngAfterViewInit() {
