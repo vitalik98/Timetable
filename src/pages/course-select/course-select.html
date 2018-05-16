@@ -1,0 +1,24 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Выберите курс:</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list style="text-align: center;">
+    <button ion-button
+            style="
+            border-radius: 14.5%;
+            font-size: 10vw;
+            width: 40%;
+            height: 40vw;
+            margin: 4%;"
+            *ngFor="let course of courses"
+            (click)="showGroups(course.groups)">
+      {{course.courseNumber}}
+    </button>
+  </ion-list>
+</ion-content>

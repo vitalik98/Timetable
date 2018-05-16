@@ -17,48 +17,6 @@
               "subject": "Предмет2",
               "course": "3",
               "group": "9"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
             }
           ]
         },
@@ -76,12 +34,6 @@
               "subject": "Предмет1",
               "course": "1",
               "group": "3"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет4",
-              "course": "4",
-              "group": "2"
             }
           ]
         },
@@ -99,12 +51,6 @@
               "subject": "Предмет2",
               "course": "3",
               "group": "9"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
             }
           ]
         }
@@ -127,48 +73,6 @@
               "subject": "Предмет2",
               "course": "3",
               "group": "9"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
             }
           ]
         },
@@ -186,12 +90,6 @@
               "subject": "Предмет1",
               "course": "1",
               "group": "3"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет4",
-              "course": "4",
-              "group": "2"
             }
           ]
         },
@@ -209,12 +107,6 @@
               "subject": "Предмет2",
               "course": "3",
               "group": "9"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
             }
           ]
         }
@@ -237,48 +129,6 @@
               "subject": "Предмет2",
               "course": "3",
               "group": "9"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
             }
           ]
         },
@@ -296,12 +146,6 @@
               "subject": "Предмет1",
               "course": "1",
               "group": "3"
-            },
-            {
-              "time": "11.15-12.35",
-              "subject": "Предмет4",
-              "course": "4",
-              "group": "2"
             }
           ]
         },
@@ -319,12 +163,476 @@
               "subject": "Предмет2",
               "course": "3",
               "group": "9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "courseNumber": "1",
+      "groups": [
+        {
+          "groupNumber": "1",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "120"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "412"
+                }
+              ]
             },
             {
-              "time": "11.15-12.35",
-              "subject": "Предмет3",
-              "course": "2",
-              "group": "4"
+              "dayN": "Вторник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "531"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "152"
+                }
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "606"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "430"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "2",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "120"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "412"
+                }
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "531"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "152"
+                }
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "606"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "430"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseNumber": "2",
+      "groups": [
+        {
+          "groupNumber": "1",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "120"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "412"
+                }
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "531"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "152"
+                }
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "606"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "430"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "2",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "120"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "412"
+                }
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "531"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "152"
+                }
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "606"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "430"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseNumber": "3",
+      "groups": [
+        {
+          "groupNumber": "1",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "120"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "412"
+                }
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "531"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "152"
+                }
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "606"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "430"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "2",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "120"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "412"
+                }
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "531"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "152"
+                }
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "606"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "430"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseNumber": "4",
+      "groups": [
+        {
+          "groupNumber": "1",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "120"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "412"
+                }
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "531"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "152"
+                }
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "606"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "430"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupNumber": "2",
+          "days": [
+            {
+              "dayN": "Понедельник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "120"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "412"
+                }
+              ]
+            },
+            {
+              "dayN": "Вторник",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "531"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "152"
+                }
+              ]
+            },
+            {
+              "dayN": "Среда",
+              "subjects": [
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "606"
+                },
+                {
+                  "time": "9.45-11.05",
+                  "subject": "Предмет2",
+                  "teacherName": "Петров",
+                  "classroom": "430"
+                }
+              ]
             }
           ]
         }
@@ -332,3 +640,4 @@
     }
   ]
 }
+

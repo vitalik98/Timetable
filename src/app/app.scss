@@ -1,5 +1,25 @@
 // http://ionicframework.com/docs/theming/
 
+*{
+  font-family: "Comic Sans MS", serif;
+  font-size: 5vw;
+}
+.toolbar-background {
+  background-color: #488aff;
+}
+.toolbar-title{
+  color: #f4f4f4;
+}
+.back-button{
+  color: #f4f4f4;
+}
+/*ion-slide.swiper-slide{
+  height: 150vh !important;
+}
+div.slide-zoom{
+  position: absolute;
+  top: 0 !important;
+}*/
 
 // App Global Sass
 // --------------------------------------------------

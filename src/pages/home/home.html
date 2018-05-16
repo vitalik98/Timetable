@@ -1,16 +1,35 @@
 <ion-header>
+
   <ion-navbar>
-    <ion-title>
-      Ionic
-    </ion-title>
-    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-title>Расписание</ion-title>
+
   </ion-navbar>
+
 </ion-header>
 
+
 <ion-content padding>
-  <ion-list>
-    <button ion-item icon-left *ngFor="let teacher of teacherBuf" (click)="showTimetable(teacher.days)">
-      {{teacher.name}}
-    </button>
-  </ion-list>
+  <button
+    ion-button
+    style="height: 48vw;width: 100%;"
+    (click)="toTeacherSelect(teachers)">
+    <div class="teacherIcon">
+      <img src="../assets/imgs/teacher.png">
+    </div>
+    <div style="width: 50%; font-size: 4.5vw;">
+      Преподаватель
+    </div>
+  </button>
+  <button
+    ion-button
+    style=" height: 48vw; width: 100%;"
+    (click)="toCourse(courses)">
+    <div class="teacherIcon">
+      <img src="../assets/imgs/student.png">
+    </div>
+    <div style="width: 50%; font-size: 4.5vw;">
+      Студент
+    </div>
+  </button>
+  <button ion-button (click)="saveData()">Save</button>
 </ion-content>

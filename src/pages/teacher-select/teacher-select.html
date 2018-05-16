@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Расписание</ion-title>
+  </ion-navbar>
+  <ion-searchbar
+    placeholder="Найти"
+    (ionInput)="getItems($event)"></ion-searchbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item *ngFor="let teacher of teacherBuf" (click)="showTimetable(teacher.days)">
+      {{teacher.name}}
+    </button>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Расписание</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div id="wrapper">
+    <ion-slides #slider>
+      <ion-slide *ngFor="let day of days">
+        <h1>{{day.dayN}}</h1>
+        <ion-list>
+          <ion-card *ngFor="let subject of day.subjects">
+            <ion-row>
+              <ion-col col-6>
+                <p>{{subject.time}}</p>
+              </ion-col>
+              <ion-col col-6 *ngIf="subject.classroom!=''">
+                <p>Ауд: {{subject.classroom}}</p>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-row>
+                <ion-col col-12>
+                  <h1>{{subject.subject}}</h1>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col col-12 *ngIf="subject.teacherName!=''">
+                  <h2>Преподаватель:{{subject.teacherName}}</h2>
+                </ion-col>
+              </ion-row>
+            </ion-row>
+          </ion-card>
+        </ion-list>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>

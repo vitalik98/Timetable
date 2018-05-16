@@ -1,55 +1,65 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
+import {TeacherSelectPage} from "../teacher-select/teacher-select";
+import {CourseSelectPage} from "../course-select/course-select";
 import {JsonProvider} from "../../providers/json/json";
-import {TimetablePage} from "../timetable/timetable";
-
-export class Teacher {
-  name: string;
-  days: Day;
-}
-
-export class Day {
-  dayN: string;
-  subjects: Subject;
-}
-
-export class Subject {
-  time: string;
-  subject: string;
-  course: number;
-  group: number;
-}
+import {Storage} from "@ionic/storage";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
 })
 export class HomePage {
-  teachers: Teacher[];
-  days;
-  teacherBuf:Teacher[];
-  constructor(public navCtrl: NavController, public JsonP: JsonProvider) {
+  courses: any = [];
+  teachers: any = [];
+
+  constructor(
+    public navCtrl: NavController,
+    public JsonP: JsonProvider,
+    public storage: Storage,
+    public http: HttpClient) {
   }
 
-  showTimetable(days) {
-    this.navCtrl.push(TimetablePage, {days: days})
+  toTeacherSelect(teachers) {
+    this.navCtrl.push(TeacherSelectPage, {teachers: teachers});
   }
 
-  ionViewDidLoad() {
-    this.JsonP.getData().subscribe(data => this.teachers = data['teachers']);
-    this.JsonP.getData().subscribe(data => this.teacherBuf = data['teachers']);
-    this.JsonP.getData().subscribe(data => console.log("!!!", data));
+  toCourse(courses) {
+    this.navCtrl.push(CourseSelectPage, {courses: courses});
   }
-  getItems(ev: any) {
-    let val = ev.target.value;
-    console.log(val);
-    if (val == '' || val == null || val == undefined) {
-      this.teacherBuf = this.teachers;
-    }
-    else {
-      this.teacherBuf = this.teachers.filter((teacher) => {
-        return (teacher.name.toLowerCase().indexOf(val.toLowerCase()) > -1);
-      })
-    }
+
+  ionViewWillEnter() {
+    this.JsonP.getData().subscribe((data) => {
+      this.courses = data['courses'];
+      this.teachers = data['teachers'];
+    },
+      (error) => {
+        console.log("Server unavailable! Loading from local storage...");
+        this.loadData();
+      }
+    )
+  }
+
+  loadData() {
+    this.storage.get('teachers').then((val) => {
+      if (val != null && val != undefined) {
+        this.teachers = JSON.parse(val);
+      }
+    });
+    this.storage.get('courses').then((val) => {
+      if (val != null && val != undefined) {
+        this.courses = JSON.parse(val);
+      }
+    });
+    console.log("Data retrieved!");
+  }
+
+  saveData() {
+    this.storage.set('teachers', JSON.stringify(this.teachers));
+    this.storage.set('courses', JSON.stringify(this.courses));
+    console.log("Data saved!");
+    console.log(this.teachers);
+    console.log(this.courses);
   }
 }

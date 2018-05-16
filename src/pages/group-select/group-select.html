@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Выберите группу:</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list style="text-align: center;">
+    <button ion-button
+            style="
+            border-radius: 14.5%;
+            font-size: 10vw;
+            width: 40%;
+            height: 40vw;
+            margin: 4%;"
+            *ngFor="let group of groups"
+            (click)="showStudTimetable(group.days)">
+      {{group.groupNumber}}
+    </button>
+  </ion-list>
+</ion-content>

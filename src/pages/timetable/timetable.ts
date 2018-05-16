@@ -3,13 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ViewChild } from "@angular/core";
 import { Slides } from "ionic-angular";
 
-/**
- * Generated class for the TimetablePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-timetable',
@@ -24,9 +17,6 @@ export class TimetablePage {
     this.subjects = this.navParams.data.days.subjects;
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TimetablePage');
-  }
   ngAfterViewInit() {
     this.slider.autoHeight = true;
   }
